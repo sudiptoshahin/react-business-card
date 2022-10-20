@@ -1,0 +1,106 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    background-color: #23252C;
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    max-width: 550px;
+    background-color: #1A1B21;
+}
+
+header{
+    margin: auto;
+    width: 58%;
+    padding-top: 10px;
+}
+
+.intro {
+    text-align: center;
+    color: white;
+    line-height: 0;
+}
+
+.intro h1 {
+    font-family: Inter;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.intro h4 {
+    font-weight: 400;
+    color: #F3BF99;
+    padding-top: 10px;
+}
+
+.intro p {
+    font-weight: 400;
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+.btn--email, .btn--linkedin {
+    width: 115px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 7px;
+    margin: 15px 10px 10px 10px;
+}
+
+.btn--email {
+    background-color: #D1D5DB;
+}
+
+.btn--linkedin {
+    background-color: #5093E2;
+    color: white;
+}
+
+.contact--with {
+    display: flex;
+    justify-content: center;
+}
+
+.text--sections {
+    padding: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+
+.text-section1 h2, .text-section2 h2 {
+    color: #F5F5F5;
+}
+
+.text-section1 p, .text-section2 p {
+    color: #DCDCDC;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #161619;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer button {
+    background-color: #918E9B;
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    margin: auto;
+}
